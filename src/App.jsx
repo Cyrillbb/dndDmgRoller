@@ -52,10 +52,26 @@ function App() {
                         onClick={handleAttackRoll}>
                         Attack Roll
                     </button>
-                    <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#Modal"
+                    <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
                     onClick={handleDamageRoll}>
                         DMG roll
                     </button>
+                    <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
+                    onClick={() => setRollResult(Math.ceil(Math.random() * 10))}>
+                        Roll d10
+                    </button>
+                    <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
+                    onClick={() => setRollResult(Math.ceil(Math.random() * 20))}>
+                        Roll d20
+                    </button>
+                    <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
+                    onClick={() => setRollResult(Math.ceil(Math.random() * 8))}>
+                        Roll d8
+                    </button>
+                    <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
+                    onClick={() => setRollResult(Math.ceil(Math.random() * 4))}>
+                        Roll d4
+                    </button>                    
                 </div>
             </form>
             <Modal roll={rollResult} />
