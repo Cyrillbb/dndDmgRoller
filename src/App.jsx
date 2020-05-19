@@ -6,8 +6,7 @@ function App() {
         abMod: 0,
         profBon: 0,
         otherBon: 0,
-        wpnMax: 0,
-        wpnMin: 0,
+        wpnMax: 0,        
     })
     const [rollResult, setRollResult] = useState(0)
 
@@ -16,14 +15,12 @@ function App() {
         if (roll === 20) setRollResult('Critical hit!')
         else if (roll === 1) setRollResult('Critical miss!')
         else if (roll + state.abMod + state.profBon > 20) setRollResult(20)
-        else setRollResult(roll + state.abMod + state.profBon)
-        console.log(state)
+        else setRollResult(roll + state.abMod + state.profBon)        
     }
 
     const handleDamageRoll = () => {
-        let roll = Math.floor(Math.random() * (state.wpnMax - state.wpnMin + 1)) + state.wpnMin;
-        setRollResult(roll + state.abMod + state.otherBon)
-        console.log(state)
+        let roll = Math.ceil(Math.random() * (state.wpnMax));
+        setRollResult(roll + state.abMod + state.otherBon)        
     }
 
     return (
@@ -41,13 +38,10 @@ function App() {
                         onChange={e => setState({ ...state, profBon: parseInt(e.target.value) })} />
                     <label htmlFor="otherBon" className='text-light'>Enter ur other bonuses</label>
                     <input type="number" id='otherBon' className='form-control'
-                        onChange={e => setState({ ...state, otherBon: parseInt(e.target.value) })} />
-                    <label htmlFor="wpnMinDmg" className='text-light'>Weapon min dmg</label>
-                    <input type="number" id='wpnMinDmgn' className='form-control'
-                        onChange={e => setState({ ...state, wpnMax: parseInt(e.target.value) })} />
+                        onChange={e => setState({ ...state, otherBon: parseInt(e.target.value) })} />                    
                     <label htmlFor="wpnMaxDmg" className='text-light'>Weapon max dmg</label>
                     <input type="number" id='wpnMaxDmgn' className='form-control'
-                        onChange={e => setState({ ...state, wpnMin: parseInt(e.target.value) })} />
+                        onChange={e => setState({ ...state, wpnMax: parseInt(e.target.value) })} />
                     <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
                         onClick={handleAttackRoll}>
                         Attack Roll
@@ -69,8 +63,8 @@ function App() {
                         Roll d8
                     </button>
                     <button type="button" className="btn btn-primary m-1" data-toggle="modal" data-target="#Modal"
-                    onClick={() => setRollResult(Math.ceil(Math.random() * 4))}>
-                        Roll d4
+                    onClick={() => setRollResult(Math.ceil(Math.random() * 6))}>
+                        Roll d6
                     </button>                    
                 </div>
             </form>
