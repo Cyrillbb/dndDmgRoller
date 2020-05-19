@@ -31,7 +31,7 @@ function App() {
             <nav className="navbar navbar-dark bg-primary">
                 <span className="navbar-brand mb-0 h1">Simple dnd attack calculator</span>
             </nav>
-            <form className='w-75 p-3 ' style={{ 'margin': '0 auto' }}>
+            <form className='w-75 p-3 ' style={{ 'margin': '0 auto', 'maxWidth': '600px' }}>
                 <div className='form-'>
                     <label htmlFor="abilityMod" className='text-light'>Enter ur ability modifier</label>
                     <input type="number" id='abilityMod' className='form-control'
