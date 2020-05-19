@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c03b73ae0f2c505a3123445e6e39f4ad",
+    "revision": "1927dfe041c3bf1a8ec840ccee415a8b",
     "url": "/dndDmgRoller/index.html"
   },
   {
-    "revision": "c8013370b87fe0664532",
+    "revision": "4bb3b34fe7052d695dcf",
     "url": "/dndDmgRoller/static/css/main.a9916324.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dndDmgRoller/static/js/2.1a189d07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c8013370b87fe0664532",
-    "url": "/dndDmgRoller/static/js/main.4aedac33.chunk.js"
+    "revision": "4bb3b34fe7052d695dcf",
+    "url": "/dndDmgRoller/static/js/main.ca932014.chunk.js"
   },
   {
     "revision": "c38daaab2c95181053c0",
