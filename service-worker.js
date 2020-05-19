@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dndDmgRoller/precache-manifest.31d5578234dcf6df3a9ba3ddfc0129f5.js"
+  "/dndDmgRoller/precache-manifest.10214dc21096dbc391004b694c16c820.js"
 );
 
 self.addEventListener('message', (event) => {

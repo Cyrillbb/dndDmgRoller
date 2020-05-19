@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dndDmgRoller/static/css/main.a9916324.chunk.css",
-    "main.js": "/dndDmgRoller/static/js/main.43c39d5e.chunk.js",
-    "main.js.map": "/dndDmgRoller/static/js/main.43c39d5e.chunk.js.map",
+    "main.js": "/dndDmgRoller/static/js/main.4aedac33.chunk.js",
+    "main.js.map": "/dndDmgRoller/static/js/main.4aedac33.chunk.js.map",
     "runtime-main.js": "/dndDmgRoller/static/js/runtime-main.d3bbc68d.js",
     "runtime-main.js.map": "/dndDmgRoller/static/js/runtime-main.d3bbc68d.js.map",
     "static/js/2.1a189d07.chunk.js": "/dndDmgRoller/static/js/2.1a189d07.chunk.js",
     "static/js/2.1a189d07.chunk.js.map": "/dndDmgRoller/static/js/2.1a189d07.chunk.js.map",
     "index.html": "/dndDmgRoller/index.html",
-    "precache-manifest.31d5578234dcf6df3a9ba3ddfc0129f5.js": "/dndDmgRoller/precache-manifest.31d5578234dcf6df3a9ba3ddfc0129f5.js",
+    "precache-manifest.10214dc21096dbc391004b694c16c820.js": "/dndDmgRoller/precache-manifest.10214dc21096dbc391004b694c16c820.js",
     "service-worker.js": "/dndDmgRoller/service-worker.js",
     "static/css/main.a9916324.chunk.css.map": "/dndDmgRoller/static/css/main.a9916324.chunk.css.map",
     "static/js/2.1a189d07.chunk.js.LICENSE.txt": "/dndDmgRoller/static/js/2.1a189d07.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d3bbc68d.js",
     "static/js/2.1a189d07.chunk.js",
     "static/css/main.a9916324.chunk.css",
-    "static/js/main.43c39d5e.chunk.js"
+    "static/js/main.4aedac33.chunk.js"
   ]
 }
